@@ -64,8 +64,8 @@ const OnboardingModal = ({ setOnboarding }) => {
                 
                 <div className="relative z-10">
                     <div className="text-center mb-8">
-                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-4">
-                            <IconClock />
+                        <div className="inline-flex items-center justify-center w-20 h-20 mb-4">
+                            <img src="logo.png" alt="ScholarSync Logo" className="w-full h-full object-contain drop-shadow-md" />
                         </div>
                         <h1 className="text-3xl font-bold text-slate-800">Welcome to ScholarSync</h1>
                         <p className="text-slate-500 mt-2">Let's calibrate your experience.</p>
@@ -278,8 +278,8 @@ const Dashboard = ({ schedules, setSchedules, holidayMode, setHolidayMode, strea
         <div className="max-w-4xl mx-auto p-4 sm:p-8">
             <header className="flex justify-between items-center mb-10">
                 <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-500/30">
-                        <IconClock />
+                    <div className="w-12 h-12 flex items-center justify-center">
+                        <img src="logo.png" alt="ScholarSync Logo" className="w-full h-full object-contain drop-shadow-sm" />
                     </div>
                     <h1 className="text-2xl font-bold text-slate-800 tracking-tight">ScholarSync</h1>
                 </div>
